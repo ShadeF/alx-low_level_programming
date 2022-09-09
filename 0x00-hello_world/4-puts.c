@@ -1,13 +1,12 @@
 #include <stdio.h>
+
 /**
- * Main - prints a statement
- * @void: no input arguments
+ * main - Entry point
  *
- * Description: a function that outputs using puts
- * Return: execute without errors
+ * Return: Always 0
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("Programming is like building a multilingual puzzle);
 	return (0);
 }
