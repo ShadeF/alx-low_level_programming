@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	char alpha = 'a';
+	char alpha;
 
-	for (alpha == 97 && alpha < 123)
+	for (alpha = 97; alpha < 123; alpha++)
 	{
-		for (alpha != 101 && alpha != 113)
+		if (alpha != 101 && alpha != 113)
 		{
 			putchar(alpha);
-			alpha++;
 		}
 	}
 	putchar('\n');
