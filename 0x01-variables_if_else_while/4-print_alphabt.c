@@ -9,10 +9,13 @@ int main(void)
 {
 	char alpha = 'a';
 
-	while ()
+	while (alpha == 97 && alpha <123)
 	{
-		putchar();
-		alpha++;
+		while (alpha != 101 && alpha != 113)
+		{
+			putchar(alpha);
+			alpha++;
+		}
 	}
 	putchar('\n');
 	return (0);
