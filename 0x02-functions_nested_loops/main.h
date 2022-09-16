@@ -3,14 +3,21 @@
 #include <stdio.h>
 
 /**
- * print_text - prints the text _putchar
- * @void: 
+ * print_alphabet - prints the alphabet from a to z
+ * @void: parameter
  *
- * Return: will not return anything
+ * Return: 0
  */
-void print_text(void);
-void print_text(void)
+void print_alphabet(void);
+void print_alphabet(void)
 {
-	printf("_putchar\n");
+	char x = 'a';
+
+	while (x <= 'z')
+	{
+		putchar(x);
+		printf("\n");
+		x++;
+	}
 }
 #endif /* MAIN_H */
