@@ -8,6 +8,7 @@
  *
  * Return: 0
  */
+void print_text(void);
 void print_alphabet(void)
 {
 	char x = 'a';
@@ -15,7 +16,6 @@ void print_alphabet(void)
 	while (x <= 'z')
 	{
 		putchar(x);
-		printf("\n");
 		x++;
 	}
 }
