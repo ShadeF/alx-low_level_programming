@@ -10,4 +10,5 @@
  */
 void print_text(void);
 void print_alphabet(void);
+int _islower(int c);
 #endif /* MAIN_H */
